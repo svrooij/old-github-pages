@@ -1,0 +1,88 @@
+<html>
+
+<head>
+  <title>Stephan van Rooij - Dutch developer</title>
+  <link rel="stylesheet" type="text/css" href="lib/pageable/pageable.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <div id="container">
+    <div data-anchor="About">
+      <div>
+        <h1>Stephan van Rooij</h1>
+        <h2>Software developer | Home automation</h2>
+        <p>
+          <a class="btn btn-primary btn-lg" href="https://github.com/svrooij/"><i class="socicon-github"></i> Github</a>
+          <a class="btn btn-primary btn-lg" href="https://twitter.com/svrooij/"><i class="socicon-twitter"></i>
+            Twitter</a>
+          <a class="btn btn-primary btn-lg" href="https://www.linkedin.com/in/stephanvanrooij"><i
+              class="socicon-linkedin"></i> LinkedIn</a>
+          <a class="btn btn-primary btn-lg" href="https://svrooij.nl">Blog</a>
+        </p>
+      </div>
+
+    </div>
+    <div data-anchor="Packages">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">node-sonos-ts</h5>
+                <p class="card-text">A library to control your sonos speakers from node (and typescript).</p>
+                <a href="https://github.com/svrooij/node-sonos-ts/" class="btn btn-primary">Open on Github</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">sonos2mqtt</h5>
+                <p class="card-text">Control your sonos speakers from your mqtt server, for a great home automation
+                  experience</p>
+                <a href="https://github.com/svrooij/sonos2mqtt/" class="btn btn-primary">Open on Github</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">sonos-cli</h5>
+                <p class="card-text">Control your sonos speakers right from the command line.</p>
+                <a href="https://github.com/svrooij/sonos-cli/" class="btn btn-primary">Open on Github</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">ipcam2mqtt</h5>
+                <p class="card-text">Make your "dumb" ip-cameras a bit smarter by having them send the events to your mqtt server.</p>
+                <a href="https://github.com/svrooij/ipcam2mqtt/" class="btn btn-primary">Open on Github</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div data-anchor="Page 3"></div>
+    <div data-anchor="Page 4"></div> -->
+  </div>
+  <script type="text/javascript" src="lib/pageable/pageable.min.js"></script>
+  <script type="text/javascript">
+    new Pageable("#container", {
+      animation: 500,
+      delay: 100,
+      swipeThreshold: 150,
+      infinite: true,
+      pips: true
+    });
+  </script>
+</body>
+
+</html>

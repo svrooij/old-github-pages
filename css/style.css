@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400i,700");
+@import url("https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?u8vidh");
+body {
+  margin: 0;
+  font-family: "Montserrat";
+  overflow: hidden;
+  background-color: #2a2a2a;
+}
+
+.pg-page {
+  /* color: white; */
+
+  background-size: cover;
+}
+
+#about {
+  background-image: url('../img/working-with-coffee.jpg');
+}
+#packages {
+  /* background-image: url('../img/keyboard-phone.jpg'); */
+  background: #3F51B5;
+  padding:30px;
+}
+
+#about>div {
+  position: relative;
+  float: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding:20px;
+}
+
+.row {margin-bottom: 30px;}
